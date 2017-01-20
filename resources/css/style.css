@@ -50,8 +50,11 @@ a {
 #headerText {
 	margin-left: 50px;
 	margin-right: 35px;
-	color: #ffe03b;
 	text-align: left;
+}
+
+#headerText a {
+	color: #ffe03b;
 }
 
 #headerRight {
