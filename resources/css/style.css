@@ -1,12 +1,10 @@
 /*
-Name:
-Description:
-Author: will rossiter
-Copyright: Its a FREE template but i would like if you left this notice here :D
-
+Name: Jason A. Ruby
+Description: Blue Paw Development site
+Copyright:
 */
 
-/***Misc Tags***/
+/** ALL (*), BODY, ANCHORS **/
 
 * {
 	margin: 0;
@@ -34,7 +32,7 @@ a {
 	background: inherit;
 }
 
-/***Header/logo tags***/
+/** HEADER **/
 
 #header {
 	width: 850px;
@@ -67,7 +65,7 @@ a {
 }
 
 
- /***Top Navigation - try not to findle this took me a while to work out and get right***/
+ /** TOP NAV **/
 
 #topnav {
 	margin-top: 105px;
@@ -104,7 +102,7 @@ a {
 	background-repeat: no-repeat;
 }
 
-/***MAIN CONTENT (WHITE) AREA***/
+/** BODY/MAIN **/
 
 #content {
 	clear: both;
@@ -156,7 +154,7 @@ a {
 }
 
 
-/***Random stuff Area***/
+/** MISC **/
 
 
 #latest {
@@ -214,7 +212,7 @@ a {
 	background: #333333;
 }
 
-/***FOOTER***/
+/** FOOTER **/
 
 #footer {
 	width: 100%;
