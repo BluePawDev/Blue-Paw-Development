@@ -127,10 +127,10 @@ a {
 .content {
 	clear: both;
 	text-align: left;
-	width: 650px;
+	width: 45%;
 	margin: 20px auto 0 auto;
 	padding: 5px;
-	width: 655px;
+	/*width: 45%;*/
 }
 
 .content h2 {
@@ -140,14 +140,16 @@ a {
 	margin-left: 15px;
 	letter-spacing: -1px;
 	margin-bottom: 10px;
+	/*border: 1px solid black;*/
 	color: #f06800;
 }
 
 .content p {
-	font-size: 1.063em;
+	font-size: 17px;
 	/*font-size: 0.9em;*/
 	line-height: 1.5em;
 	color: #222222;
+	border: 1px solid black;
 }
 
 .content p a {
