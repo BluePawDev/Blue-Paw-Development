@@ -34,30 +34,30 @@ a {
 
 /** HEADER **/
 
-#header {
+.header {
 	display: flex;
 	width: 100%;
 	border-top: 1px solid #000;
 }
 
-#headerLeft {
+.headerLeft {
 	display: flex;
 	align-items: center;
 	margin-left: 35px;
 	padding-left: 30px;
 }
 
-#headerText {
+.headerText {
 	margin-left: 50px;
 	margin-right: 35px;
 	text-align: left;
 }
 
-#headerText a {
+.headerText a {
 	color: #ffe03b;
 }
 
-#headerRight {
+.headerRight {
 	width: 100%;
 	display: flex;
 	flex-direction: column;
@@ -65,21 +65,21 @@ a {
 	padding-right: 35px;
 }
 
-#headerTagLine {
+.headerTagLine {
 	flex: 1;
 	padding-top: 40px;
 	color: #ffe03b;
 	text-align: center;
 }
 
-#headerTagLine h2 {
+.headerTagLine h2 {
 	font-size: 1.3em;
 	letter-spacing: -0.5px;
 	font-weight: normal;
 	font-style: italic;
 }
 
-#headerNav {
+.headerNav {
 	flex: 1;
 	padding-top: 29px;
 	padding-left: 180px;
@@ -88,11 +88,11 @@ a {
 
  /** TOP NAV **/
 
-#topnav {
+.topnav {
 
 }
 
-#topnav a {
+.topnav a {
 	display: block;
 	float: left;
 	text-align: center;
@@ -108,14 +108,14 @@ a {
 	background-repeat: no-repeat;
 }
 
-#topnav a:hover {
+.topnav a:hover {
 	background-image: url(../images/tab.png);
 	color: #000;
 	background-position: top left;
 	background-repeat: no-repeat;
 }
 
-#topnav .active {
+.topnav .active {
 	background-image: url(../images/tab.png);
 	color: #000;
 	background-position: top left;
@@ -124,7 +124,7 @@ a {
 
 /** BODY/MAIN **/
 
-#content {
+.content {
 	clear: both;
 	text-align: left;
 	width: 650px;
@@ -133,7 +133,7 @@ a {
 	width: 655px;
 }
 
-#content h2 {
+.content h2 {
 	padding-left: 8px;
 	font-size: 1.2em;
 	text-transform: uppercase;
@@ -143,23 +143,23 @@ a {
 	color: #f06800;
 }
 
-#content p {
+.content p {
 	font-size: 1.063em;
 	/*font-size: 0.9em;*/
 	line-height: 1.5em;
 	color: #222222;
 }
 
-#content p a {
+.content p a {
 	color: #324A97;
 }
 
-#content p a:hover {
+.content p a:hover {
 	color: #fff;
 	background: #324A97;
 }
 
-#content blockquote {
+.content blockquote {
 	margin: 15px;
 	border: 1px solid #b0b0b0;
 	padding: 10px;
@@ -170,36 +170,36 @@ a {
 	color: #a0a0a0;
 }
 
-#content abbr {
+.content abbr {
 	border-bottom: 1px dotted #8f8f8f;
 }
 
 
 /** MISC **/
 
-#quotes {
+.quotes {
 	text-align: center;
 }
 
-#techTable {
+.techTable {
 	width: 500px;
 	display: flex;
 	justify-content: space-around;
 }
 
 
-#scroll {
+.scroll {
 	padding: 15px 0 10px 200px;
 }
 
-#latest {
+.latest {
 	width: 100%;
 	background: #333333 url(bg2.png) repeat-x;
 	font-size: 0.7em;
 	padding-top: 80px;
 }
 
-#container2 {
+.container2 {
 	clear: both;
 	background: #333333;
 	text-align: left;
@@ -208,7 +208,7 @@ a {
 	margin: 0 auto;
 }
 
-#container2 h3 {
+.container2 h3 {
 	font-size: 1.2em;
 	text-transform: uppercase;
 	margin-left: 10px;
@@ -241,7 +241,7 @@ a {
 	border-top: 1px dotted #a0a0a0;
 }
 
-#articles {
+.articles {
 	width: 320px;
 	float: right;
 	background: #333333;
@@ -249,7 +249,7 @@ a {
 
 /** FOOTER **/
 
-#footer {
+.footer {
 	width: 100%;
 	clear: both;
 	text-align: center;
