@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta name="keywords" content="Blue Paw, website, development">
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Blue Paw Dev</title>
   <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
+  <link rel="stylesheet" href="resources/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="resources/css/style.css">
-  <link rel="stylesheet" href="resources/css/fonts/font-awesome.min.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="resources/css/custom.css">
 </head>
 
 <body>
@@ -17,17 +18,40 @@
   <div class="navbar navbar-default navbar-static-top">
     <div class="container">
       <div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a
-          class="navbar-brand" href="#"><span>Blue Paw&nbsp;</span>Development</a></div>
+          class="navbar-brand" href="home.html"><span><img src="resources/images/theme/blue-paw-logo-64.png" alt="">Blue Paw Development</span></a></div>
+
+      <!-- Start of Navbar -->
       <div class="collapse navbar-collapse" id="navbar-ex-collapse">
-        <ul class="nav navbar-nav navbar-right">
-          <li class="active"><a href="#">Home</a></li>
+        <ul class="nav nav-tabs navbar-nav navbar-right">
+          <li><a href="home.html">Home</a></li>
           <li><a href="#">Portfolio</a></li>
-          <li><a href="#" contenteditable="true">About</a></li>
+          <!-- Start of Dropdown -->
+          <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="about.html" data-target="#">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="about.html">Passion/About</a></li>
+              <li><a href="skills.html">Skills</a></li>
+              <li class="divider"></li>
+              <li><a class="disabled" href="contact.html">Contact Me</a></li>
+              <li class="divider"></li>
+              <li><a href="https://github.com/BluePawDev" target="_blank"><i class="fa fa-github"></i> Git Me</a></li>
+              <li><a href="https://www.linkedin.com/in/jaruby" target="_blank"><i class="fa fa-linkedin-square"></i> Link Me</a></li>
+              <li><a href="https://twitter.com/BluePawDev" target="_blank"><i class="fa fa-twitter"></i> Follow Me</a></li>
+              <li><a href="https://www.facebook.com/BluePawDev/" target="_blank"><i class="fa fa-facebook"></i> Like Me</a></li>
+              <li class="divider"></li>
+              <li><a href="blue.html">Namesake</a></li>
+          </li>
+          <!-- End of Dropdown -->
+          </ul>
         </ul>
       </div>
+      <!-- End of Navbar -->
+
     </div>
   </div>
   <!-- End of Header -->
+
+
 
   <!-- Start of Content -->
   <!-- Special version of Bootstrap that only affects content wrapped in .bootstrap-iso -->
@@ -128,7 +152,10 @@
         <!-- Start Footer Title -->
         <div class="col-sm-6">
           <h1>Blue Paw Development</h1>
-          <p>We don’t build web pages -- we help you make a statement!</p>
+          <p>I don’t build websites&mdash;I help you make a statement!</p>
+          <br>
+          <small><p id="copyright" xmlns:dc="http://purl.org/dc/elements/1.1/" property="dc:rights">Copyright &copy;
+            <span property="dc:dateCopyrighted">2017</span><span property="dc:creator"> Handcrafted by Jason A Ruby. All Rights Reserved.</span></p></small>
         </div>
         <!-- End Footer Title -->
 
@@ -155,6 +182,8 @@
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script type="text/javascript" src="resources/js/bootstrap.js"></script>
   <!-- End of JavaScript -->
+
+
 
 
 

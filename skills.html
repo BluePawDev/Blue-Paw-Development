@@ -1,126 +1,132 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!DOCTYPE html>
+<html lang="en">
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blue Paw Dev</title>
+  <link rel="stylesheet" type="text/css" href="resources/css/bootstrap.css">
+  <link rel="stylesheet" href="resources/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/custom.css">
+</head>
 
-  <head>
-    <title>Blue Paw: Skills</title>
-    <meta http-equiv="content-type" content="application/xhtml; charset=UTF-8" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto:900" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="resources/css/style.css" media="screen, print, projection" />
-  </head>
+<body>
 
+  <!-- Start of Header -->
+  <div class="navbar navbar-default navbar-static-top">
+    <div class="container">
+      <div class="navbar-header"><button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a
+          class="navbar-brand" href="home.html"><span><img src="resources/images/theme/blue-paw-logo-64.png" alt="">Blue Paw Development</span></a></div>
 
-  <body>
-    <!-- HEADER/LOGO -->
-    <div class="header">
-      <div class="headerLeft">
-
-        <div class="headerLogo">
-          <a href="index.html"><img src="resources/images/logo-200x191.png" alt="Blue Paw Development logo" width="129"></a>
-        </div> <!-- End of #headerLogo -->
-
-        <div class="headerText">
-          <a href="index.html"><h1>Blue Paw Development</h1></a>
-        </div> <!-- End of #headerText -->
-
-      </div> <!-- End of #headerLeft -->
-
-      <div class="headerRight">
-
-        <div class="headerTagLine">
-          <h2>Make it Simple, but Significant!</h2>
-        </div> <!-- End of #headerTagLine -->
-
-        <div class="headerNav">
-          <div class="topnav">
-            <a href="index.html">Home</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="skills.html" class="active">Skills</a>
-            <a href="about.html">About</a>
-            <a href="contact.html">Contact</a>
-          </div> <!-- End of #topnav -->
-
-        </div> <!-- End of #headerNav -->
-
-      </div> <!-- End of #headerRight -->
-
-    </div> <!-- End of #header -->
-
-    <!-- BODY/MAIN -->
-    <div class="content">
-
-      <h2>Skills &rsaquo;</h2>
-      <p>There are no limits to what we can build for you!
-        <br/>
-        <br>
-
-      <h2>Technology</h2>
-      <table>
-
-      </table>
-      <div class="techTable">
-
-        <div class="tableLeft">
-          <img src="resources/images/html5-logo-46x64.png" alt="HTML5 logo" width="23"> HTML5
-          <br><br>
-          <img src="resources/images/css3-logo-64x90.png" alt="CSS3 logo" width="23"> CSS3
-          <br><br>
-          <img src="resources/images/javascript-logo-64x64.png" alt="JavaScript logo" width="23"> JavaScript
-          <br><br>
-          <img src="resources/images/angular-logo-64x64.png" alt="Angular logo" width="23"> Angular
-        </div> <!-- End of #tableLeft -->
-
-        <div class="tableRight">
-          <img src="resources/images/jquery-logo-64x62.png" alt="jQuery logo" width="22"> jQuery
-          <br><br>
-          <img src="resources/images/mysql-logo-64x38.png" alt="MySQL logo" width="33"> MySQL
-          <br><br>
-          <img src="resources/images/github-logo-64x64.png" alt="GitHub logo" width="23"> GitHub
-        </div> <!-- End of #tableRight -->
-
-      </div> <!-- End of #techTable -->
-      <br><br>
-
-      <blockquote class="quotes">
-        <p>Sometimes you win, sometimes you learn.</p>
-      </blockquote>
-      <br>
-      <br>
-
-    </div> <!-- End of #content -->
-
-    <!--OUCH DID I NEED SO MANY DIVS HERE..:P..-->
-    <div class="latest">
-      <div class="container2">
-        <div class="randomcrap">
-          <!--LEFT LINKS-->
-          <div class="blocklinks">
-            <h3>Links &rsaquo;</h3>
-            <a href="http://www.openwebdesign.org" class="link"><span class="name">Open Web Design.org</span> - free templates and a forum full of talent and friendly people</a>
-            <a href="http://www.oswd.org" class="link"><span class="name">OSWD.org</span> - free templates and helpful people</a>
-            <a href="http://www.stylegala.com" class="link"><span class="name">StyleGala</span> - busy forum full of advice bout webdesign</a>
-            <a class="link" href="http://www.ehostinfo.com/"><span class="name">Web
-	 Hosting</span> - Web Hosting Directory</a></div>
-        </div>
-        <!--LASTEST ARTICLES-->
-        <div class="articles">
-          <div class="blocklinks">
-            <h3>Latest Articles &rsaquo;</h3>
-            <a href="#" class="link">will.r releases new template</a>
-            <a href="#" class="link">My dog ate the neighbours cat</a>
-            <a href="#" class="link">Google takes over the world</a>
-            <a href="#" class="link">Well goodluck editing this</a>
-          </div>
-        </div>
+      <!-- Start of Navbar -->
+      <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+        <ul class="nav nav-tabs navbar-nav navbar-right">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Portfolio</a></li>
+          <!-- Start of Dropdown -->
+          <li role="presentation" class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" role="button" href="about.html" data-target="#">About <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="about.html">Passion/About</a></li>
+              <li><a class="disabled" href="#">Skills</a></li>
+              <li class="divider"></li>
+              <li><a href="contact.html">Contact Me</a></li>
+              <li class="divider"></li>
+              <li><a href="https://github.com/BluePawDev" target="_blank"><i class="fa fa-github"></i> Git Me</a></li>
+              <li><a href="https://www.linkedin.com/in/jaruby" target="_blank"><i class="fa fa-linkedin-square"></i> Link Me</a></li>
+              <li><a href="https://twitter.com/BluePawDev" target="_blank"><i class="fa fa-twitter"></i> Follow Me</a></li>
+              <li><a href="https://www.facebook.com/BluePawDev/" target="_blank"><i class="fa fa-facebook"></i> Like Me</a></li>
+              <li class="divider"></li>
+              <li><a href="blue.html">Namesake</a></li>
+          </li>
+          <!-- End of Dropdown -->
+          </ul>
+        </ul>
       </div>
-      <!-- FOOTER -->
-      <div class="footer">
-        <p>Copyright &copy; 2017 Blue Paw Development</p>
-        &nbsp;
-      </div> <!-- End of #footer -->
+      <!-- End of Navbar -->
 
     </div>
-  </body>
+  </div>
+  <!-- End of Header -->
+
+  <!-- Start of Content -->
+  <div class="section">
+    <div class="container">
+      <h2 class="page-header">Skills</h2>
+
+      <!-- Start of Row -->
+      <div class="row">
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Development</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+
+        <div class="panel panel-default">
+          <div class="panel-heading">
+            <h3 class="panel-title">Networking</h3>
+          </div>
+          <div class="panel-body">
+            Panel content
+          </div>
+        </div>
+
+      </div>
+      <!-- End of Row -->
+
+
+    </div>
+  </div>
+  <!-- End of Content -->
+
+  <!-- Start of Footer -->
+  <footer class="section section-primary">
+    <div class="container">
+      <div class="row">
+
+        <!-- Start Footer Title -->
+        <div class="col-sm-6">
+          <h1>Blue Paw Development</h1>
+          <p>I don’t build websites&mdash;I help you make a statement!</p>
+          <br>
+          <small><p id="copyright" xmlns:dc="http://purl.org/dc/elements/1.1/" property="dc:rights">Copyright &copy;
+            <span property="dc:dateCopyrighted">2017</span><span property="dc:creator"> Handcrafted by Jason A Ruby. All Rights Reserved.</span></p></small>
+        </div>
+        <!-- End Footer Title -->
+
+        <!-- Start Social Media Icons -->
+        <div class="col-sm-6">
+          <p class="text-info text-right"> <br><br></p>
+          <div class="row">
+            <div class="col-md-12 hidden-xs text-right">
+              <a href="https://github.com/BluePawDev" target="_blank"><i class="fa fa-2x fa-fw fa-github text-inverse"></i></a>
+              <a href="https://www.linkedin.com/in/jaruby" target="_blank"><i class="fa fa-2x fa-fw hub text-inverse fa-linkedin-square"></i></a>
+              <a href="https://twitter.com/BluePawDev" target="_blank"><i class="fa fa-2x fa-fw fa-twitter text-inverse"></i></a>
+              <a href="https://www.facebook.com/BluePawDev/" target="_blank"><i class="fa fa-2x fa-facebook fa-fw text-inverse"></i></a>
+            </div>
+          </div>
+        </div>
+        <!-- End Social Media Icons -->
+
+      </div>
+    </div>
+  </footer>
+  <!-- End of Footer -->
+
+  <!-- Start of JavaScript -->
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script type="text/javascript" src="resources/js/bootstrap.js"></script>
+  <!-- End of JavaScript -->
+
+
+
+
+
+</body>
 
 </html>
