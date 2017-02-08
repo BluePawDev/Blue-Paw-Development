@@ -12,3 +12,7 @@
   width: 100%;
   background-color: #2E7BBD;
 }
+
+.text-center > a {
+  text-decoration: none;
+}
